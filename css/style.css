@@ -124,25 +124,21 @@ header {
 }
 
 .nyc {
-  background-image: url(../images/nyc.jpg)
+  background-image: url(../images/nyc.jpg);
 }
 .sf {
-  background-image: url(../images/sf.jpg)
+  background-image: url(../images/sf.jpg);
 }
 .la {
-  background-image: url(../images/la.jpg)
+  background-image: url(../images/la.jpg);
 }
 .austin {
-  background-image: url(../images/austin.jpg)
+  background-image: url(../images/austin.jpg);
 }
 .sydney {
-  background-image: url(../images/sydney.jpg)
+  background-image: url(../images/sydney.jpg);
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
