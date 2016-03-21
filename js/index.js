@@ -8,11 +8,8 @@ $(document).ready(function(){
 		event.preventDefault();	
 		
 		//store keyword entry as a variable of city
-		var city = $('#city-type').val();
-		
 		//get keyword entry
-		//convert entries to string
-		$('#city-input').val('');
+		var city = $('#city-type').val();
 
        	//store entry in console
        	console.log(city);
