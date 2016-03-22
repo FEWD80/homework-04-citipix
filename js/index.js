@@ -14,19 +14,19 @@ $("#submit-btn").click(toggle);
 	// get value of var city and change background based on the user input
 	// prevent default
 
-		if(city === "la"){
+		if(city === "la" || city === "los angelas"){
 			$("body").attr("class", "la");
 	
-		} else if(city === "nyc"){
+		} else if(city === "nyc" || city === "new york city"){
 			$("body").attr("class", "nyc");
 
-		} else if(city === "atx"){
+		} else if(city === "atx" || city === "austin"){
 			$("body").attr("class", "austin");
 
-		} else if(city === "syd"){
+		} else if(city === "syd" || city === "sydney"){
 			$("body").attr("class", "sydney")
 
-		} else if(city === "sf"){
+		} else if(city === "sf" || city === "san francisco"){
 			$("body").attr("class", "sf")
 
 		} else {
