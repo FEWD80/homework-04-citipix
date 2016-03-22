@@ -1,6 +1,7 @@
 
 // array of objects to store search and class data for loop to look through and take correct course of action
-var city = [
+var userEntry,
+    city = [
   {
     name: 'New York',
     altName0: 'New York City',
@@ -34,26 +35,29 @@ var city = [
 
 ];
 
-var userEntry;
+$(function() {
 
-$('#submit-btn').click(changeBackground);
 
-function changeBackground(event) {
-  event.preventDefault();
-  // Gathers User entry
-  userEntry = $('#city-type').val().toLowerCase();
-  console.log(userEntry);
-  // loops through data in city obeject array and checks if
-  // user entry matches any one of the items in array
-  // if so change class to corresponding class
-  for (var i = 0; i < city.length; i++) {
-    if (userEntry === city[i].name.toLowerCase() || userEntry === city[i].altName0.toLowerCase() || userEntry === city[i].altName1.toLowerCase()) {
-      console.log(city[i].class);
-      console.log(userEntry);
-      $('body').attr('class', city[i].class);
-      $('#city-type').val('');
-    } else {
-      $('#city-type').val('');
+  $('#submit-btn').click(changeBackground);
+
+  function changeBackground(event) {
+    event.preventDefault();
+    // Gathers User entry
+    userEntry = $('#city-type').val().toLowerCase();
+    console.log(userEntry);
+    // loops through data in city obeject array and checks if
+    // user entry matches any one of the items in array
+    // if so change class to corresponding class
+    for (var i = 0; i < city.length; i++) {
+      if (userEntry === city[i].name.toLowerCase() || userEntry === city[i].altName0.toLowerCase() || userEntry === city[i].altName1.toLowerCase()) {
+        console.log(city[i].class);
+        console.log(userEntry);
+        $('body').attr('class', city[i].class);
+        $('#city-type').val('');
+      } else {
+        $('#city-type').val('');
+      }
     }
   }
-}
+
+});
