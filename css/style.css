@@ -87,7 +87,7 @@ header {
   font-weight: normal
 }
 
-#city-type {
+#cityType {
   color: #6b6b6c;
   font-size: 38px;
   background: #fff;
@@ -102,7 +102,7 @@ header {
   vertical-align: middle;
   box-shadow: #111 0 0 20px;
 }
-#submit-btn {
+#submitButton {
   background: #ffe500;
   color: #000;
   font-size: 38px;
