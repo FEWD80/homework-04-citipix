@@ -67,7 +67,7 @@ var userEntry;
 // - Write at least six different lines of pseudocode and display them inline as JavaScript comments
 // - Prevent a form submission using the ```event.preventDefault()``` function
 // - Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded
-// - Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code
+// - Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code.
 
 
 
