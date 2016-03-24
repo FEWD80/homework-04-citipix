@@ -47,13 +47,29 @@ $(function() {
 // Sydney		
 		} else if (city === 'syd' || city ==='SYD' || city ==='Sydney' || city === 'sydney') {
 			$('body').css('backgroundImage', 'url(images/sydney.jpg)');
-		
+
+// Paris
+		} else if (city === 'paris' || city === 'Paris' ) {
+			$('body').css('backgroundImage', 'url(images/paris.jpg)');
+
+// Rome			
+		} else if (city === 'rome' || city ==='Rome') {
+			$('body').css('backgroundImage', 'url(images/rome.jpg)');
+
+// Dubai
+		} else if (city === 'dubai' || city === 'Dubai') { 
+			$('body').css('backgroundImage', 'url(images/dubai.jpg)');
+
+// Barcelona
+		} else if (city === 'barcelona' || city ==='Barcelona' || city === 'barca') { 
+			$('body').css('backgroundImage', 'url(images/barcelona.jpg)');
+
 
 		} else  { $('body').css('backgroundImage', 'url(images/citipix_skyline.jpg)');
 			// pop-up alert if the city user searched for is not available
-			alert('Sorry, your city is not available at this moment. Come back soon!');
+			alert('Sorry, your city is not available at this moment. Come back soon we are constantly making updates!');
 		}
-	};		
+	}	
 	
 });
 
