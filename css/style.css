@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Client: Citipix
+Author: Gabriella Ibrahim
 Developer @GA in NYC
 */
 
@@ -12,7 +12,7 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
+     -moz-box-sizing: border-box; /* Firefox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
