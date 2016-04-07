@@ -46,8 +46,15 @@ var userEntry;
 			$("body").css("backgroundImage", "url(../homework-04-citipix/images/sydney.jpg"); }
 
 		else { 
-			alert("Your city is WRONNGGGGG");
+			alert("Your city is WRONNG");
 		}
+
+
+function reset() {
+	$('#city-type').click('');
+}
+
+$('#submit-btn').click(reset);
 
     }
 
