@@ -16,7 +16,7 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 - Call ```$.val()``` on inputs to get the string value of your user's input
 - Store user input in ```var city```
-- Use $.on(submit) or ```$.click``` to figure out when the user clicks the "submit" button
+- Use $.on('submit') or ```$.click``` to figure out when the user clicks the "submit" button
 - Create ```if / else if / else``` conditionals to control the flow of your application
 - Write at least six different lines of pseudocode and display them inline as JavaScript comments
 - Prevent a form submission using the ```event.preventDefault()``` function
