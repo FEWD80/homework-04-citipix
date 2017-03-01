@@ -139,10 +139,26 @@ header {
   background-image: url(../images/sydney.jpg)
 }
 
+.default{
+  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.blue {
+  background: blue;
+  /*color: white;*/
+}
 
+.yellow{
+  background: yellow;
+}
 
+.red{
+  background: red;
+}
 
